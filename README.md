@@ -1,16 +1,45 @@
-## Hi there 👋
+# 👋 Hi, I’m Shaurya
 
-<!--
-**Shaurya19/Shaurya19** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🚀 Backend Developer | ⚡ Mechanical Engineer turned Software Engineer | 🔧 Building scalable systems
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠️ Skills & Technologies
+
+**Programming / Scripting**
+
+* Python (Advanced) 🐍
+* Golang (Advanced) 🦦
+* JavaScript (Intermediate) ✨
+
+**Frameworks & APIs**
+
+* GraphQL
+* REST APIs
+
+**Cloud & DevOps**
+
+* AWS (Intermediate) – EC2, S3 ☁️
+* Docker 🐳
+* Nginx + Gunicorn
+* Kubernetes
+* Temporal
+
+---
+
+## 📈 What I’m Working On
+
+* Building scalable backend systems at Wealthy (Fintech)
+
+---
+
+## 📫 Connect with Me
+
+* 💼 [LinkedIn](https://www.linkedin.com/in/shaurya-barkund/)
+
+---
+
+✨ *Always learning, always building. Backend is my playground!*
+
+---
+
