@@ -4,6 +4,12 @@
 
 ---
 
+🙋 About Me
+
+I’m Shaurya — a Mechanical Engineer turned Backend Developer.
+I love solving complex problems, designing scalable systems, and working on high-impact fintech products.
+When I’m not coding, you’ll find me exploring new tech, reading about system design, or diving into open-source projects.
+
 ## 🛠️ Skills & Technologies
 
 **Programming / Scripting**
