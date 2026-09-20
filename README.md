@@ -1,51 +1,25 @@
-# 👋 Hi, I’m Shaurya
+# Hi, I'm Shaurya 👋
 
-🚀 Backend Developer | ⚡ Mechanical Engineer turned Software Engineer | 🔧 Building scalable systems
+I build software that makes complex work feel simpler.
 
----
+I'm a software engineer with a background in mechanical engineering, currently pursuing a Master of Science in Software Engineering at Carnegie Mellon University. Previously, I built backend services and AI tools at Wealthy and interned as a software engineer at Myntra.
 
-🙋 About Me
+## What I've built
 
-I’m Shaurya — a Mechanical Engineer turned Backend Developer.
-I love solving complex problems, designing scalable systems, and working on high-impact fintech products.
-When I’m not coding, you’ll find me exploring new tech, reading about system design, or diving into open-source projects.
+- **[Fleetline](https://github.com/Shaurya19/Fleetline)** — a Go-based control plane for AI agents, with task delegation, scheduled jobs, and fleet monitoring.
+- **[StudyAI](https://studywithai-frontend.vercel.app/)** — a FastAPI app that turns text and PDFs into flashcards and quizzes with AI agents.
 
-## 🛠️ Skills & Technologies
+## Writing
 
-**Programming / Scripting**
+- [Django Query Optimization](https://medium.com/@shauryabarkund/django-query-optimization-e563356843b5) — a practical guide to reducing database queries in Django.
 
-* Python (Advanced) 🐍
-* Golang (Advanced) 🦦
-* JavaScript (Intermediate) ✨
+## Tools I use
 
-**Frameworks & APIs**
+**Languages:** Python, Go, JavaScript, TypeScript  
+**Frameworks & APIs:** Django, FastAPI, React, GraphQL  
+**Data & workflows:** PostgreSQL, Redis, Temporal, Airflow  
+**Cloud & infrastructure:** AWS, GCP, Docker, Kubernetes
 
-* GraphQL
-* REST APIs
+## Connect
 
-**Cloud & DevOps**
-
-* AWS (Intermediate) – EC2, S3 ☁️
-* Docker 🐳
-* Nginx + Gunicorn
-* Kubernetes
-* Temporal
-
----
-
-## 📈 What I’m Working On
-
-* Building scalable backend systems at Wealthy (Fintech)
-
----
-
-## 📫 Connect with Me
-
-* 💼 [LinkedIn](https://www.linkedin.com/in/shaurya-barkund/)
-
----
-
-✨ *Always learning, always building. Backend is my playground!*
-
----
-
+[Portfolio](https://shaurya19.github.io/Shaurya19/) · [LinkedIn](https://www.linkedin.com/in/shaurya-barkund/) · [Email](mailto:shauryabarkund@gmail.com)
