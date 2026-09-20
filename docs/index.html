@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Explore Shaurya Barkund's software engineering experience, projects, and writing." />
+    <meta name="theme-color" content="#f7f5ef" />
+    <title>Shaurya Barkund — Software Engineer</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+      try {
+        if (localStorage.getItem('shaurya-theme') === 'dark') document.documentElement.dataset.theme = 'dark';
+      } catch (_) {}
+    </script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="header-inner wrap">
+        <a class="wordmark" href="#top" aria-label="Shaurya Barkund, back to top">SB<span class="wordmark-dot">.</span></a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#writing">Writing</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false" title="Toggle color theme">
+          <svg class="theme-icon icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 15.3A8.7 8.7 0 0 1 8.7 3.8 8.7 8.7 0 1 0 20.2 15.3Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <svg class="theme-icon icon-sun" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5v2m0 13v2m8.5-8.5h-2m-13 0h-2m14.5-6.5-1.4 1.4M7.4 16.6 6 18m12 0-1.4-1.4M7.4 7.4 6 6m10.2 6a4.2 4.2 0 1 1-8.4 0 4.2 4.2 0 0 1 8.4 0Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero wrap" id="top" aria-labelledby="hero-title">
+        <div class="hero-meta"><span class="eyebrow">Software engineer</span><span class="meta-rule" aria-hidden="true"></span><span>Mountain View, CA</span></div>
+        <h1 id="hero-title">Hi, I'm <em>Shaurya.</em></h1>
+        <p class="hero-lede">I build software that makes complex work feel simpler.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#experience">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="assets/Shaurya Barkund - Resume.pdf" download>Download résumé <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-bottom"><span>01 / INTRODUCTION</span><span class="scroll-hint">Scroll to explore <span aria-hidden="true">↓</span></span></div>
+      </section>
+
+      <section class="section section-about" id="about" aria-labelledby="about-title">
+        <div class="wrap section-grid">
+          <div class="section-side"><span class="section-number">01 / ABOUT</span><h2 id="about-title">A little<br /> <em>about me.</em></h2></div>
+          <div class="section-content about-content">
+            <p class="intro-copy">I'm a software engineer who turns complex problems into reliable, useful software.</p>
+            <p>At Wealthy, I worked on services for recurring investments, payments, reporting, and client asset transfers. My recent work also includes a multi-agent support platform and a Go service that processes meeting recordings. Earlier, I built a merchandise-allocation system during my internship at <strong>Myntra</strong>.</p>
+            <p>I have a Bachelor of Technology in Mechanical Engineering from Vellore Institute of Technology, and I'm pursuing a Master of Science in Software Engineering at Carnegie Mellon University. My independent projects explore AI agent infrastructure and study tools.</p>
+            <div class="about-links" aria-label="Profile links">
+              <a href="https://github.com/Shaurya19/" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+              <a href="https://www.linkedin.com/in/shaurya-barkund/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+              <a href="https://leetcode.com/u/Shaurya19/" target="_blank" rel="noopener noreferrer">LeetCode <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-impact" aria-label="Selected impact">
+        <div class="wrap impact-grid">
+          <div class="impact-item"><span class="impact-value">30<span>min</span></span><p>to process 30,000 daily recurring orders, down from 5–6 hours</p></div>
+          <div class="impact-item"><span class="impact-value">$146<span>M+</span></span><p>in client asset transfers enabled within six months</p></div>
+          <div class="impact-item"><span class="impact-value">70<span>%</span></span><p>fewer support ticket escalations to engineers</p></div>
+        </div>
+      </section>
+
+      <section class="section" id="experience" aria-labelledby="experience-title">
+        <div class="wrap section-grid">
+          <div class="section-side"><span class="section-number">02 / EXPERIENCE</span><h2 id="experience-title">Work that<br /> <em>shipped.</em></h2><p class="side-note">A selection of the services and tools I've built.</p></div>
+          <div class="section-content timeline">
+            <article class="experience-item">
+              <div class="entry-top"><div><p class="entry-company">Wealthy <span class="company-context">/ Fintech asset management</span></p><h3>Senior Software Engineer</h3></div><span class="entry-date">Mar – Aug 2026</span></div>
+              <p class="entry-location">Bengaluru, India</p>
+              <ul class="achievement-list">
+                <li>Delivered a recurring investment service using Airflow, GraphQL, and Temporal. Priority scheduling and targeted payment retries cut processing for 30,000 daily orders from 5–6 hours to 30 minutes, supported over $5M in monthly investments, and recovered 75% of payment failures.</li>
+                <li>Designed and deployed a multi-agent support platform with Google ADK and FastMCP, connecting API and database tools across domains and reducing ticket escalations to engineers by 70%.</li>
+                <li>Engineered a Go-based meeting intelligence service using S3 and SQS to process recordings from 1,000+ meetings per month and automate summaries and action items.</li>
+                <li>Developed a Slack-integrated AI service with specialized subagents, role-based guardrails, and a GKE sandbox for algorithm testing. It lets product managers create GitHub PRs and helps engineers diagnose production failures through logs, metrics, and post-deployment checks.</li>
+              </ul>
+            </article>
+
+            <article class="experience-item">
+              <div class="entry-top"><div><p class="entry-company">Wealthy <span class="company-context">/ Fintech asset management</span></p><h3>Software Engineer</h3></div><span class="entry-date">Jan 2023 – Feb 2026</span></div>
+              <p class="entry-location">Bengaluru, India</p>
+              <ul class="achievement-list">
+                <li>Architected a client asset-transfer platform integrating holdings APIs, consent forms, and SFTP transaction feeds with Cloud Run fallback jobs and S3 storage, enabling over $146M in transfers within six months.</li>
+                <li>Automated daily transaction reporting for 30 asset managers with Celery and Redis, generating files for approximately 50,000 transactions in 10 minutes and allowing failed jobs to be regenerated on demand.</li>
+                <li>Implemented a Django first-investment flow with payment APIs, automated failure recovery, and distributed locking to prevent duplicate transactions, enabling $500K in investments within two months.</li>
+              </ul>
+            </article>
+
+            <article class="experience-item">
+              <div class="entry-top"><div><p class="entry-company">Myntra <span class="company-context">/ Walmart Group</span></p><h3>Software Engineering Intern</h3></div><span class="entry-date">Jan – Jun 2022</span></div>
+              <p class="entry-location">Bengaluru, India</p>
+              <ul class="achievement-list"><li>Developed a Python merchandise-allocation system using historical click-through rates and the Google Sheets API, replacing a formula-driven manual workflow and reducing end-to-end allocation time by 66%.</li></ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-projects" id="projects" aria-labelledby="projects-title">
+        <div class="wrap section-grid">
+          <div class="section-side"><span class="section-number">03 / PROJECTS</span><h2 id="projects-title">Things I<br /> <em>made.</em></h2></div>
+          <div class="section-content project-list">
+            <article class="project-card"><div class="project-heading"><span class="project-index">01</span><h3>Fleetline</h3><a class="project-link" href="https://github.com/Shaurya19/Fleetline" target="_blank" rel="noopener noreferrer" aria-label="View Fleetline on GitHub">GitHub <span aria-hidden="true">↗</span></a></div><p class="project-subtitle">Control plane for AI agents</p><p>A Go-based control plane for agent registration, directed task delegation, network allowlists, scheduled jobs, and fleet monitoring through a web dashboard. It includes heartbeat-based failure detection, timezone-aware scheduling, role-based permissions, and live SSE and Prometheus telemetry.</p><div class="tag-row"><span>Go</span><span>SSE</span><span>Prometheus</span><span>AI agents</span></div></article>
+            <article class="project-card"><div class="project-heading"><span class="project-index">02</span><h3>StudyAI</h3><a class="project-link" href="https://studywithai-frontend.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visit StudyAI">Live site <span aria-hidden="true">↗</span></a></div><p class="project-subtitle">Automated study material generator</p><p>A Dockerized FastAPI application that orchestrates specialized AI agents to turn text and PDF uploads into Pydantic-validated flashcards and quizzes.</p><div class="tag-row"><span>Python</span><span>FastAPI</span><span>Docker</span><span>AI agents</span></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-writing" id="writing" aria-labelledby="writing-title">
+        <div class="wrap section-grid">
+          <div class="section-side"><span class="section-number">04 / WRITING</span><h2 id="writing-title">Notes on<br /> <em>building.</em></h2></div>
+          <div class="section-content writing-list">
+            <article class="writing-item">
+              <p class="writing-meta">Medium <span aria-hidden="true">·</span> February 2024</p>
+              <h3>Django Query Optimization</h3>
+              <p>A practical look at reducing database queries in Django, including related-object loading, field selection, expressions, and indexes.</p>
+              <a class="writing-link" href="https://medium.com/@shauryabarkund/django-query-optimization-e563356843b5" target="_blank" rel="noopener noreferrer" aria-label="Read Django Query Optimization on Medium">Read the article <span aria-hidden="true">↗</span></a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="education" aria-labelledby="education-title">
+        <div class="wrap section-grid">
+          <div class="section-side"><span class="section-number">05 / BACKGROUND</span><h2 id="education-title">Learning &amp;<br /> <em>toolkit.</em></h2></div>
+          <div class="section-content">
+            <div class="education-list">
+              <article class="education-item"><span class="education-mark" aria-hidden="true">CMU</span><div><h3>Carnegie Mellon University</h3><p>Master of Science in Software Engineering</p><p class="education-detail">Coursework: Intro to Machine Learning, Data Science, Cloud Infrastructure and Services</p></div></article>
+              <article class="education-item"><span class="education-mark" aria-hidden="true">VIT</span><div><h3>Vellore Institute of Technology</h3><p>Bachelor of Technology in Mechanical Engineering</p><p class="education-detail">2018–2022 · GPA 3.53/4.0</p></div></article>
+            </div>
+            <div class="skills" aria-labelledby="skills-title"><h3 id="skills-title">Technical toolkit</h3><div class="skill-row"><span>Languages</span><p>Python · Go · JavaScript · TypeScript</p></div><div class="skill-row"><span>Frameworks</span><p>Django · FastAPI · Gin · React · GraphQL · LangChain · LangGraph · Google ADK · FastMCP</p></div><div class="skill-row"><span>Cloud &amp; infrastructure</span><p>AWS · GCP · Docker · Kubernetes · Prometheus</p></div><div class="skill-row"><span>Data &amp; workflows</span><p>PostgreSQL · MySQL · MongoDB · Redis · Celery · Temporal · Airflow</p></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-contact" id="contact" aria-labelledby="contact-title">
+        <div class="wrap contact-inner"><span class="section-number">06 / CONTACT</span><h2 id="contact-title">Let's get in <em>touch.</em></h2><p>Want to talk about software or one of the projects here? Send me a note.</p><a class="contact-email" href="mailto:shauryabarkund@gmail.com">shauryabarkund@gmail.com <span aria-hidden="true">↗</span></a><div class="contact-actions"><button class="copy-email" type="button" data-email="shauryabarkund@gmail.com">Copy email</button><span class="copy-status" role="status" aria-live="polite"></span></div></div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="wrap footer-inner"><p>© <span id="year">2026</span> Shaurya Barkund</p><div class="footer-links"><a href="assets/Shaurya Barkund - Resume.pdf" download>Full-time résumé ↓</a><a href="assets/Shaurya Barkund - Intern Resume.pdf" download>Internship résumé ↓</a><a href="https://www.linkedin.com/in/shaurya-barkund/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/Shaurya19/" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div><a class="back-to-top" href="#top">Back to top ↑</a></div></footer>
+  </body>
+</html>
